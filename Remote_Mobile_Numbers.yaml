@@ -1,0 +1,93 @@
+elements:
+  - entity: switch.tv_box_1
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 7%
+      top: 10%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_2
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 37%
+      top: 10%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_3
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 67%
+      top: 10%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_4
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 7%
+      top: 30%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_5
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 37%
+      top: 30%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_6
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 67%
+      top: 30%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_7
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 7%
+      top: 50%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_8
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 37%
+      top: 50%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_9
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 67%
+      top: 50%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_0
+    style:
+      '--mdc-icon-size': 350%
+      '--paper-item-icon-color': black
+      left: 37%
+      top: 70%
+    tap_action:
+      action: toggle
+    type: state-icon
+image: /local/remote/numbers_background.svg
+type: picture-elements

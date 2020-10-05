@@ -1,0 +1,183 @@
+elements:
+  - entity: switch.tv_off
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 11.8%
+      top: 7.8%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_mode
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 30.5%
+      top: 7.5%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.apple_tv_mode
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 49.2%
+      top: 7.5%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.xbox_mode
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 68%
+      top: 7.7%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.mac_mode
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 86.7%
+      top: 7.6%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.music_mode
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 11.6%
+      top: 16.8%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: light.tv_backlights
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 86.6%
+      top: 16.8%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_select
+    style:
+      '--mdc-icon-size': 200%
+      '--paper-item-icon-color': black
+      left: 45.0%
+      top: 27.0%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_up
+    style:
+      '--mdc-icon-size': 200%
+      '--paper-item-icon-color': black
+      left: 45.6%
+      top: 15.5%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_down
+    style:
+      '--mdc-icon-size': 200%
+      '--paper-item-icon-color': black
+      left: 45.6%
+      top: 39.2%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_left
+    style:
+      '--mdc-icon-size': 200%
+      '--paper-item-icon-color': black
+      left: 20.6%
+      top: 27.2%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_right
+    style:
+      '--mdc-icon-size': 200%
+      '--paper-item-icon-color': black
+      left: 71.6%
+      top: 27.2%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_volume_up
+    icon: 'mdi:volume-plus'
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 17.4%
+      top: 51.0%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_volume_down
+    icon: 'mdi:volume-minus'
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 17.4%
+      top: 58%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: remote.universal_remote
+    icon: 'mdi:volume-variant-off'
+    style:
+      '--mdc-icon-size': 18%
+      '--paper-item-icon-color': black
+      left: 42%
+      top: 67.3%
+    tap_action:
+      action: call-service
+      service: remote.send_command
+      service_data:
+        entity_id: remote.universal_remote
+        device: Soundbar
+        command:
+          - Mute
+    type: icon
+  - entity: switch.tv_box_ch_up
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 49.4%
+      top: 52%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_ch_down
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 49.4%
+      top: 66.8%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_menu
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 81.2%
+      top: 52%
+    tap_action:
+      action: toggle
+    type: state-icon
+  - entity: switch.tv_box_back
+    style:
+      '--mdc-icon-size': 120%
+      '--paper-item-icon-color': black
+      left: 81.2%
+      top: 66.8%
+    tap_action:
+      action: toggle
+    type: state-icon
+image: /local/remote/remote_controller_mobile.svg
+type: picture-elements
